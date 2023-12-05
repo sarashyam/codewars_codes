@@ -1,3 +1,9 @@
+'''
+You will be given a number and you will need to return it as a string
+expanded_form(70304) # Should return '70000 + 300 + 4'
+
+'''
+
 def expanded_form(num):
         lst = [] # to store the values
         l = len(str(num)) # getting the lenght of num by converting to string
