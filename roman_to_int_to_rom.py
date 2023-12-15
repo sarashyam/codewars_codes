@@ -1,8 +1,7 @@
-class RomanNumerals:
-    @staticmethod
+
     
     
-    def to_roman(val : int) -> str:
+def to_roman(val : int) -> str:
         
         if val == 0:  # there is no corresponding value for 0
             return ''
@@ -30,8 +29,8 @@ class RomanNumerals:
 
         return roman
 
-    @staticmethod
-    def from_roman(roman_num : str) -> int:
+ 
+def from_roman(roman_num : str) -> int:
                     
             rom = {"I":1,"IV":4, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000}
             
