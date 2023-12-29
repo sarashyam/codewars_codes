@@ -10,7 +10,7 @@ rem = seconds % (360*24*60*60)
     
 days = rem // (24*60*60)
 if days != 0:
-        lst.append(f"{days} days" if days>1 else f"{days} day")  
+    lst.append(f"{days} days" if days>1 else f"{days} day")  
 rem = rem % (24*60*60)
     
 hours = rem // (60*60)
